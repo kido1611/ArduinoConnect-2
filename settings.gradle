@@ -1,0 +1,5 @@
+rootProject.name='Arduino Connect Example'
+include ':app'
+include ':arduinoconnect'
+include ':arduinoconnect-udp'
+include ':arduinoconnect-bluetooth'
