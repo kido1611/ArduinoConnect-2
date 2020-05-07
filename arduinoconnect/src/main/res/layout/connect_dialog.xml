@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP Address / Multicast Address" />
+
+    <EditText
+        android:id="@+id/edIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="127.0.0.1"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Port" />
+
+    <EditText
+        android:id="@+id/edPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="8080"
+        android:inputType="text" />
+</LinearLayout>
